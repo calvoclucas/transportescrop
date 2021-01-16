@@ -1,0 +1,461 @@
+
+
+body{
+  background-color:#ffffff;
+  font-family:'Opens Sans',helvetica;
+
+}
+
+
+.responsive {
+ width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+#primerDiv
+{
+	background-color: #000000;
+	height: auto;
+}
+#logoPrincipal
+{
+	padding: 40px;
+	width: 50%;
+	display:block;
+	margin:auto;
+}
+.container-fluid
+{
+	padding: 0px;
+}
+
+#containerPrincipal 
+{
+	position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/trucks-2.jpg); 
+  
+  background-size: cover;
+}
+
+#camion1
+{
+	
+	width: 100%;
+	display:block;
+	margin:0px;
+}
+.textoCons
+{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   color: #FFFFFF;
+
+}
+#camionDiv
+{
+	padding: 0px;
+}
+
+/*div#seccion1
+{
+	background-color: #FFFFFF;
+	padding-top:25%;
+	padding-bottom:25%;
+	 -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   background-position: center;
+   opacity: 0.4;
+   filter: grayscale(100%);
+}*/
+#textoMenu{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: #B52222; 
+}
+#navMenu
+{
+	background-color: #FFFFFF;
+}
+#imgSlide1
+{
+	height: auto;
+   	width: 100% ;
+    opacity: 0.4;
+   	filter: grayscale(100%);
+}
+#imgSlide2
+{
+	height: auto;
+
+   	width: 100% ;
+    opacity: 0.4;
+   	filter: grayscale(50%);
+}
+div#seccion2
+{
+	background-color: #FFFFFF;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+div#seccion3
+{
+	background-color: #B52222;
+	padding-top:100px;
+	padding-bottom:200px;
+	border-bottom: 2px solid #B52222;
+	border-top: 2px solid #B52222;
+}
+div#seccion4
+{
+	background-color: #FFFFFF;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+nav#menuPrincipal
+{
+	background-color: #0A689D;
+}
+
+img#logoPrin
+{
+	width: 20%;
+	height: auto;
+ 	padding: 10px;
+}
+
+#botonMenu
+{
+	float: right;
+}
+
+
+div.carousel-caption
+{
+	top: 30%;
+	height: 80%;
+	 background:rgba(255, 255, 255, 0.45); 
+	border-radius:20px 20px 20px 20px ;
+	height: auto;
+}
+
+
+#textoSlide
+{
+	color: #B52222;
+	font-size: 70px;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	
+}
+.navbar-toggler
+{
+	background-color: #FFFFFF;
+	
+}
+
+
+#divServicios
+{
+	
+	padding: 5%;
+  
+}
+
+#divServicios1
+{
+	text-align: center;
+}
+
+#iconCamion
+{
+	font-size: 45px;
+	color: #B52222;
+}
+#textServicios
+{
+
+	color: #B52222;
+	font-size: 23px;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+#divLocalidades
+{
+	
+	padding: 5%;
+	text-align: center;
+  
+}
+
+#textLocalidades
+{
+
+	color: #FFFFFF;
+	font-size: 23px;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	text-align: center;
+
+}
+#svgUbicacion
+{
+	width: 30%;
+	text-align: center;
+	fill: #FFFFFF;
+	padding-bottom: 10px;
+}
+.lineBorder
+{
+    border: 1px solid #B52222;
+    margin: 0 auto 16px;
+    width: 50px;
+    text-align: center;
+}
+#divUbicacion
+{
+	
+	padding: 10px;
+}
+
+#textVedia
+{
+	text-align: center;
+	font-size: 28px;
+	color: #B52222;
+}
+#dirVedia
+{
+	
+	font-size: 20px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	
+}
+#telVedia
+{
+	font-size: 20px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	
+}
+#textCap
+{
+	text-align: center;
+	font-size: 28px;
+	color: #B52222;
+}
+#dirCap
+{
+	
+	font-size: 20px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	
+}
+#telCap
+{
+	font-size: 20px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	
+}
+.fas.fa-bars
+{
+	color: #B52222;
+}
+div#footer
+{
+	background-color: #B52222;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+h4#footer
+{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+#divUbicacion
+{
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+#iframeDir
+{
+	width: 100%;
+	height: 500px;
+}
+
+#iconTel
+{
+	padding-left: 2px;
+}
+#linkTel
+{
+	font-size: 20px;
+	color: #FFFFFF;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	
+}
+
+
+#botonTel
+{
+	width: 60%;
+	background-color: #B52222;
+	padding: 5%;
+	margin: 10%;
+	text-align: center;
+}
+
+/*Cambios para Moviles*/
+@media (max-width: 768px) {
+  #textoSlide
+{
+	color: #B52222;
+	font-size: 20px;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+}
+
+#textServicios
+{
+
+	color: #B52222;
+	font-size: 15px;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+img#logoPrin
+{
+	width: 35%;
+	height: auto;
+ 	padding: 10px;
+}
+#textLocalidades
+{
+
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	text-align: center;
+
+}
+h4#footer
+{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+
+#textVedia
+{
+	text-align: center;
+	font-size: 18px;
+	color: #B52222;
+}
+#dirVedia
+{
+	
+	font-size: 15px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;
+	
+}
+#telVedia
+{
+	font-size: 15px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;
+	
+}
+#textCap
+{
+	text-align: center;
+	font-size: 18px;
+	color: #B52222;
+}
+#dirCap
+{
+	
+	font-size: 15px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;
+	
+}
+#telCap
+{
+	font-size: 15px;
+	color: #B52222;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	padding: 4px;
+	text-align: center;
+}
+
+#iframeDir
+{
+	width: 100%;
+	height: 300px;
+}
+
+#linkTel
+{
+	font-size: 15px;
+	color: #FFFFFF;
+	font-family:'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	
+}
+
+#botonTel
+{
+	
+	background-color: #B52222;
+	padding: 5%;
+}
+
+#btnVedia
+{
+	text-align: center;
+}
+
+}
+
